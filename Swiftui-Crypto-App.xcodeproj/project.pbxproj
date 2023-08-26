@@ -12,6 +12,9 @@
 		4049EA2E2A99574700F3AFED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4049EA2D2A99574700F3AFED /* Preview Assets.xcassets */; };
 		4049EA352A9957E000F3AFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4049EA342A9957E000F3AFED /* Assets.xcassets */; };
 		4049EA382A995B3B00F3AFED /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049EA372A995B3B00F3AFED /* Color.swift */; };
+		40D4713E2A99F47800E57F24 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4713D2A99F47800E57F24 /* HomeView.swift */; };
+		40D471422A99F60500E57F24 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D471412A99F60500E57F24 /* CircleButtonView.swift */; };
+		40D471442A99F94E00E57F24 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D471432A99F94E00E57F24 /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		4049EA2D2A99574700F3AFED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4049EA342A9957E000F3AFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		4049EA372A995B3B00F3AFED /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		40D4713D2A99F47800E57F24 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		40D471412A99F60500E57F24 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		40D471432A99F94E00E57F24 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			children = (
 				4049EA262A99574500F3AFED /* Swiftui_Crypto_AppApp.swift */,
 				4049EA362A995B2A00F3AFED /* Extensions */,
+				40D471372A99F43C00E57F24 /* Core */,
 				4049EA282A99574500F3AFED /* ContentView.swift */,
 				4049EA342A9957E000F3AFED /* Assets.xcassets */,
 				4049EA2C2A99574700F3AFED /* Preview Content */,
@@ -76,6 +83,56 @@
 				4049EA372A995B3B00F3AFED /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40D471372A99F43C00E57F24 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				40D4713F2A99F5E500E57F24 /* Components */,
+				40D471382A99F44600E57F24 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		40D471382A99F44600E57F24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				40D4713A2A99F45700E57F24 /* ViewModels */,
+				40D471392A99F45100E57F24 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		40D471392A99F45100E57F24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40D4713D2A99F47800E57F24 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D4713A2A99F45700E57F24 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		40D4713F2A99F5E500E57F24 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				40D471402A99F5F700E57F24 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		40D471402A99F5F700E57F24 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				40D471412A99F60500E57F24 /* CircleButtonView.swift */,
+				40D471432A99F94E00E57F24 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4049EA292A99574500F3AFED /* ContentView.swift in Sources */,
+				40D4713E2A99F47800E57F24 /* HomeView.swift in Sources */,
 				4049EA272A99574500F3AFED /* Swiftui_Crypto_AppApp.swift in Sources */,
+				40D471422A99F60500E57F24 /* CircleButtonView.swift in Sources */,
 				4049EA382A995B3B00F3AFED /* Color.swift in Sources */,
+				40D471442A99F94E00E57F24 /* CircleButtonAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
