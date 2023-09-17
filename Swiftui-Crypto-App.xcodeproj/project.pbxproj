@@ -20,6 +20,7 @@
 		4049EA382A995B3B00F3AFED /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049EA372A995B3B00F3AFED /* Color.swift */; };
 		40A420AF2AB7A6550041C7DF /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A420AE2AB7A6550041C7DF /* StatisticModel.swift */; };
 		40A420B12AB7A7740041C7DF /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A420B02AB7A7740041C7DF /* StatisticView.swift */; };
+		40A420B32AB7AE6A0041C7DF /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A420B22AB7AE6A0041C7DF /* HomeStatsView.swift */; };
 		40D4713E2A99F47800E57F24 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4713D2A99F47800E57F24 /* HomeView.swift */; };
 		40D471422A99F60500E57F24 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D471412A99F60500E57F24 /* CircleButtonView.swift */; };
 		40D471442A99F94E00E57F24 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D471432A99F94E00E57F24 /* CircleButtonAnimationView.swift */; };
@@ -47,6 +48,7 @@
 		4049EA372A995B3B00F3AFED /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		40A420AE2AB7A6550041C7DF /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		40A420B02AB7A7740041C7DF /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		40A420B22AB7AE6A0041C7DF /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		40D4713D2A99F47800E57F24 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		40D471412A99F60500E57F24 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		40D471432A99F94E00E57F24 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				40D4713D2A99F47800E57F24 /* HomeView.swift */,
+				40A420B22AB7AE6A0041C7DF /* HomeStatsView.swift */,
 				40D471482A9A27C700E57F24 /* CoinRowView.swift */,
 			);
 			path = Views;
@@ -297,6 +300,7 @@
 				4049EA382A995B3B00F3AFED /* Color.swift in Sources */,
 				401DE32B2AB260C000A523A0 /* SearchBarView.swift in Sources */,
 				40D471552A9B9E2A00E57F24 /* NetworkingManager.swift in Sources */,
+				40A420B32AB7AE6A0041C7DF /* HomeStatsView.swift in Sources */,
 				40D471442A99F94E00E57F24 /* CircleButtonAnimationView.swift in Sources */,
 				401DE3272AACF06800A523A0 /* CoinImageViewModel.swift in Sources */,
 				40D4714B2A9A282000E57F24 /* PreviewProvider.swift in Sources */,
