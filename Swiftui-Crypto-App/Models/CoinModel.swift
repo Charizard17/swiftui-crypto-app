@@ -54,7 +54,6 @@ import Foundation
 */
 
 
-// MARK: - Welcome
 struct CoinModel: Identifiable, Codable {
     let id, symbol, name: String
     let image: String
